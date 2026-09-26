@@ -1,0 +1,15 @@
+{
+  "version": "2.2.0",
+  "date": "2026-09-26",
+  "notes": "Aktualizacje OTA: pierwsze wydanie z pobieraniem przez WiFi, baner o nowej wersji w UI, rollback do poprzedniego firmware.",
+  "firmware": {
+    "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/firmware.bin",
+    "size": 1546608,
+    "sha256": "11f87ef004707f6f3fb583f932168b03dff75c314360666fa160627f7bffe27d"
+  },
+  "filesystem": {
+    "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/littlefs.bin",
+    "size": 655360,
+    "sha256": "e12a7258757d53d2c4351867283b83245f5c3154bf3c3a58cb5479fda658e2bc"
+  }
+}
