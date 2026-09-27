@@ -1,15 +1,15 @@
 {
-  "version": "2.2.4",
+  "version": "2.2.5",
   "date": "2026-09-27",
-  "notes": "v2.2.4: osobne pomiary DHT22 i SDS011, naprawa SDS011\n\n- Naprawa: SDS011 nie wracał po resecie ESP32 (np. po OTA). Czujnik\n  zostawał uśpiony, bo dostawał komendy przed wybudzeniem - teraz\n  zawsze jest najpierw budzony.\n- Nowe przyciski \"Zmierz DHT22\" i \"Zmierz SDS011\" obok \"Zmierz\n  wszystko\" (dawniej \"Zmierz teraz\").\n- Sam odczyt DHT22 odświeża wartości na żywo, ale nie trafia do\n  historii i nie zmienia wentylatora w trybie Auto.\n- API: POST /api/measure?sensor=all|dht|sds.\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
+  "notes": "ui fixes + sensor reading interval setup\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
   "firmware": {
     "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/firmware.bin",
-    "size": 1549216,
-    "sha256": "40d0e3558964188f062a3d4270c3c5746929f2181dff36f0e08020e89fe66867"
+    "size": 1549744,
+    "sha256": "50ae07f31a29b6c2fdedbcd9259d1aba24fc155505c6fb6e338e147b0e5c3046"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/littlefs.bin",
     "size": 655360,
-    "sha256": "1bb78a53e321e21e847758ba350911c60d6c10d279ac046cd1587041060c74c1"
+    "sha256": "b1c66d0e62e99022a35f011104f0c52897179637fe499c5835853a52f39c95a9"
   }
 }
