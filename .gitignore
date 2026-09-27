@@ -1,0 +1,14 @@
+# Public update repository: only the downloadable release files are tracked.
+# Everything else - in particular any source or build directory that ends up
+# in a checkout shared with the private repository - is ignored, so an
+# accidental `git add -A` cannot publish code.
+*
+!.gitignore
+!LICENSE
+!README.md
+!RELEASE_NOTES.md
+!manifest.json
+!firmware.bin
+!littlefs.bin
+!bootloader.bin
+!partitions.bin
