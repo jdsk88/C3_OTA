@@ -1,15 +1,15 @@
 {
-  "version": "2.2.1",
+  "version": "2.2.2",
   "date": "2026-09-27",
-  "notes": "c cpp props",
+  "notes": "healt check test endpoint",
   "firmware": {
     "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/firmware.bin",
-    "size": 1546608,
-    "sha256": "303cb48b31bebdc79d8d1acd9e1f8e3f8cd9924449883ee5e8b9e36ee52527ce"
+    "size": 1548416,
+    "sha256": "e0d79c417e262e04714a655d2cf925d22d384471cd9290b65c1a237ffbdfa4fb"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/littlefs.bin",
     "size": 655360,
-    "sha256": "0f268e03ca77b77b9070f2e833aff3bd21f921a553fd1d1357f8422b9405a737"
+    "sha256": "6c23710b83df724190e5ab9dfe9663d3d1a23755571119f2724f7be7291530a6"
   }
 }
