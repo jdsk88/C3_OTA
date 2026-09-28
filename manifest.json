@@ -1,15 +1,15 @@
 {
-  "version": "2.2.5",
-  "date": "2026-09-27",
-  "notes": "ui fixes + sensor reading interval setup\n\nCo-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>",
+  "version": "2.2.6",
+  "date": "2026-09-28",
+  "notes": "v2.2.6: tryb \"Tylko ESP-NOW\", porządki w zakładce System\n\n- Nowy tryb sieci \"Tylko ESP-NOW\": WiFi wyłączone, radio działa\n  tylko dla wyświetlacza, na kanale z chwili przełączenia.\n- Przycisk BOOT przytrzymany 5 s przywraca WiFi z każdego trybu\n  (AP + STA z zapisanym routerem, inaczej AP).\n- Sekcja Sieć zbiera wszystko: stan połączenia, WiFi, wyświetlacz\n  (ESP-NOW) i urządzenie (nazwa, lokalizacja).\n- Przełącznik ESP-NOW zapisuje się od razu.\n- Poprawki układu na telefonie.\n- Build przypięty do platformy espressif32@6.10.0.",
   "firmware": {
     "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/firmware.bin",
-    "size": 1549744,
-    "sha256": "50ae07f31a29b6c2fdedbcd9259d1aba24fc155505c6fb6e338e147b0e5c3046"
+    "size": 1553968,
+    "sha256": "cadc0a5a7a54349e924c8ba1beab169fd47cb444a9ed99070b289ad4d7829081"
   },
   "filesystem": {
     "url": "https://raw.githubusercontent.com/jdsk88/C3_OTA/main/littlefs.bin",
     "size": 655360,
-    "sha256": "b1c66d0e62e99022a35f011104f0c52897179637fe499c5835853a52f39c95a9"
+    "sha256": "e469f08deb79924181a46606d2e92195a2cf6265f54bae15537f9f5a17617ef8"
   }
 }
